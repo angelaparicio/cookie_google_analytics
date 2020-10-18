@@ -1,0 +1,43 @@
+#notification-cookies-shadow {
+background-color: #333;
+color: #FFFFFF;
+top: 0%;
+left: 0%;
+opacity: 0.8;
+width: 100%;
+height: 100%;
+z-index: 1000;
+position: fixed;
+}
+
+#notification-cookies-wrapper {
+padding: 15px 24px;
+margin: 10% 5%;
+float: left;
+color: white;
+position: absolute;
+z-index: 9999;
+background: white;
+color: black;
+}
+
+#botones-cookies {
+padding-top: 2em;
+padding-bottom: 1em;
+}
+
+.boton-cookies {
+transition: background 150ms ease-in-out;
+background: #0073aa;
+border: none;
+border-radius: 5px;
+box-sizing: border-box;
+color: #fff;
+font-size: 0.88889em;
+font-weight: 700;
+line-height: 1.2;
+outline: none;
+padding: 0.76rem 1rem;
+text-decoration: none;
+cursor: pointer
+}

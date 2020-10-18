@@ -7,9 +7,9 @@
 		
 		if ( strlen($script) && strlen($cookies_url) ){
 			wp_enqueue_script('rgdp_cookies', plugin_dir_url(__FILE__).'js/rgdp_cookies.js', array('jquery'));
-			$script = str_replace("\'", "'", $script);
+			wp_enqueue_style('rgdp_cookies',  plugin_dir_url(__FILE__).'css/rgdp_cookies.css');
 			
-			echo '<script>'.$script.'</script>';
+			echo '<script>'.str_replace("\'", "'", $script).'</script>';
 			echo '<script> var cookiesURL = "'.$cookies_url.'";</script>';
 		}
 		
